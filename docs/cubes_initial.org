@@ -1,6 +1,12 @@
-* Cubes *
+* Cubes
 - Introduction
 - Problems
 - Solution
 - Advantages
 - Challenges
+* Demo Application
+- Usage
+- Graph created
+- Architecture
+- Logic
+- Todo
