@@ -1,22 +1,33 @@
 <html>
+  <head>
+  <title>Cubes Demo Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
   <body>
-    <div>
-      Origin:
-      Destination:
-      Seats:
-      Extended stay:
-      Percentage of Traffic to simulate:
-    </div>
-    <div>
-      Report:
+    <div class="container">
       <div>
-        Route:
-        Total time:
+        <img src="#" alt="map" />
+      </div>
+      <div>
+        <form>
+          Origin:
+          Destination:
+          Seats:
+          Extended stay:
+          Percentage of Traffic to simulate:
+        </form>
+      </div>
+      <div>
+        Report:
+        <div>
+          Route:
+          Total time:
+        </div>
+      </div>
+      <div>
+        Visual:
+        <canvas id="canvas"></canvas>
       </div>
     </div>
-    <div>
-      Visual:
-      <canvas id="canvas"></canvas>
-    </div>    
   </body>
 </html>
